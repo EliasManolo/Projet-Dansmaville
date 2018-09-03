@@ -1,0 +1,882 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:320px) and (max-width:519px) {
+  /* NAV */
+  .navbar {
+    width: 100%;
+    height: 47px;
+    padding: 0;
+    background: whitesmoke;
+  }
+  .navbar-brand {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  nav a img.img-fluid {
+    width: 8vh;
+    height: 10vh;
+  }
+  header nav h2 {
+    width: 70%;
+    height: 10vh;
+    font-family: Fredoka One;
+    color: #6cc551;
+    margin: 0;
+    line-height: 10vh;
+  }
+  .navbar-toggler {
+    margin-right: 2%;
+    background: white;
+  }
+  div.collapse {
+    width: 50%;
+    height: 10vh;
+  }
+  ul.navbar-nav {
+    width: 100%;
+    height: 10vh;
+  }
+  li.nav-item {
+    width: 100%;
+    height: 15vh;
+    background: white;
+    align-self: right;
+    z-index: 2;
+  }
+  a.nav-link {
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    line-height: 15vh;
+    padding: 0;
+  }
+  /* FIN NAV */
+  body {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    background-size: cover;
+    background-position: top;
+  }
+  /* PAGE-HOME */
+  section#page-home {
+    width: 100%;
+    height: auto;
+  }
+  section#page-home img {
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    margin-top: 5vh;
+  }
+  section#page-home div {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-top: -2vh;
+    text-align: center;
+    background: white;
+  }
+  section#page-home div p {
+    width: 100%;
+    height: auto;
+    font-size: 3vw;
+    font-family: Montserrat;
+    color: #004385;
+  }
+  /* FIN PAGE-HOME */
+  /* PAGE-DESCRIPTION */
+  section#page-description {
+    width: 100%;
+    height: 85vh;
+  }
+  section#page-description h2.title-1 {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    padding: 0;
+    margin: 0;
+    font-size: 9vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-family: Fredoka One;
+    color: #004385;
+  }
+  section#page-description article {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section#page-description article div {
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+  }
+  section#page-description article div img {
+    width: 100%;
+    height: 40vh;
+    background: white;
+    border: 2px solid #6cc551;
+    border-bottom: none;
+  }
+  section#page-description article div span {
+    width: 100%;
+    height: 35vh;
+    opacity: 0.9;
+  }
+  section#page-description article div span h3 {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 5vw;
+    margin: 0;
+    border: 2px solid #6cc551;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    font-family: Fredoka One;
+    background: #6cc551;
+    color: #004385;
+  }
+  section#page-description article div span p {
+    width: 100%;
+    height: 20vh;
+    line-height: 4vh;
+    font-size: 2vh;
+    padding: 1vh;
+    font-family: Montserrat;
+    color: #087ca7;
+    background: white;
+    text-align: center;
+    border: 2px solid #6cc551;
+    border-top: none;
+  }
+  /* FIN PAGE-DESCRIPTION */
+  /* PAGE-CONTACT */
+  section#page-contact {
+    width: 100%;
+    height: 85vh;
+  }
+  section#page-contact h2 {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  section#page-contact article.contact {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  section#page-contact article.contact figure.bloc-one {
+    width: 100%;
+    height: auto;
+  }
+  section#page-contact article.contact figure.bloc-one h5 {
+    width: 100%;
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 3vh;
+    margin: 0;
+    text-align: center;
+    font-family: fredoka one;
+    background: white;
+    color: #004385;
+  }
+  section#page-contact article.contact figure.bloc-one div.map-adress {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section#page-contact article.contact figure.bloc-one div.map-adress div.img-adress {
+    width: 100%;
+    height: 70vh;
+    background: whitesmoke;
+  }
+  section#page-contact article.contact figure.bloc-one div.map-adress figure {
+    width: 100%;
+    height: 35vh;
+    margin: 0;
+  }
+  section#page-contact article.contact figure.bloc-one div.map-adress figure img {
+    width: 100%;
+    height: 34vh;
+    padding: 1vh;
+  }
+  section#page-contact article.contact figure.bloc-one div.map-adress div.text-adress {
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+    background: #087ca7;
+  }
+  section#page-contact article.contact figure.bloc-one div.map-adress div.text-adress p {
+    font-size: 3vh;
+    line-height: 6vh;
+    font-family: fredoka one;
+    color: white;
+  }
+  #map {
+    width: 100%;
+    height: 75vh;
+  }
+  section#page-contact article.contact figure.bloc-two {
+    width: 100%;
+    height: auto;
+  }
+  section#page-contact article.contact figure.bloc-two h5 {
+    width: 100%;
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 3vh;
+    margin: 0;
+    text-align: center;
+    font-family: fredoka one;
+    background: white;
+    color: #004385;
+  }
+  section#page-contact article.contact figure.bloc-two a {
+    text-decoration: none;
+    margin-left: 5%;
+  }
+  section#page-contact article.contact figure.bloc-two a img {
+    width: 18%;
+    height: auto;
+    padding-top: 1vh;
+  }
+  /* FIN PAGE-CONTACT */
+  /* DEBUT PAGE-CONNEXION  */
+  section#page-connexion {
+    width: 100%;
+    height: auto;
+  }
+  section#page-connexion h2 {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-family: Fredoka One;
+    color: #004385;
+  }
+  section#page-connexion form {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background: grey;
+  }
+  section#page-connexion form label {
+    width: 70%;
+    height: auto;
+    font-size: 3vh;
+    font-family: Montserrat;
+    margin: 0;
+    margin-top: 3vh;
+    font-weight: bold;
+    color: white;
+  }
+  section#page-connexion form input {
+    width: 60%;
+    height: 6vh;
+    font-size: 3vh;
+    font-family: Montserrat;
+    padding: 5px;
+    border: none;
+    border: 2px solid #004385;
+  }
+  section#page-connexion form div#btn-co {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+  }
+  section#page-connexion form div#btn-co input {
+  width: 25%;
+  height: 7vh;
+  line-height: 2vh;
+  font-size: 3vw;
+  margin-right: 4.7%;
+  font-family: Montserrat;
+  text-align: center;
+  background: #004385;
+  color: white;
+  border: none;
+}
+section#page-connexion form div#btn-co div {
+  width: 25%;
+  height: 7vh;
+  line-height: 7vh;
+  font-size: 3vw;
+  margin-left: 4.7%;
+  font-family: Montserrat;
+  display: flex;
+}
+  section#page-connexion form div#btn-co div a {
+    width: 100%;
+    color: white;
+    background: #004385;
+    text-decoration: none;
+  }
+  section#page-connexion form div#btn-co input:hover, section#page-connexion form div#btn-co div a:hover {
+    cursor: pointer;
+  }
+  section#page-connexion form div#login {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 4vw;
+    margin-top: 2vh;
+    padding: 5px;
+    justify-content: center;
+  }
+  section#page-connexion form div#login p {
+    color: white;
+    font-family: Montserrat;
+  }
+  section#page-connexion form div#login a {
+    width: auto;
+    background: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vh;
+    text-decoration: none;
+    color: red;
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+  /* FIN PAGE LOGIN  */
+  /* DEBUT PAGE REGISTER  */
+  section#page-register {
+    width: 100%;
+    height: 85vh;
+  }
+  section#page-register h2 {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-family: Fredoka One;
+    color: #004385;
+  }
+  section#page-register form {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5vh;
+    padding: 15px;
+    opacity: 0.95;
+    background: grey;
+    text-align: center;
+  }
+  section#page-register form label {
+    width: 100%;
+    height: 5vh;
+    padding: 5px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2vh;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+  }
+  section#page-register form input {
+    width: 70%;
+    height: 6vh;
+    font-family: Montserrat;
+    padding: 5px;
+    font-size: 3vw;
+    text-align: center;
+    border: 2px solid #004385;
+  }
+  section#page-register form div#btn2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  section#page-register form div#btn2 input {
+    width: 30%;
+    height: 6vh;
+    font-size: 3vw;
+    margin-right: 3%;
+    font-family: Montserrat;
+    text-align: center;
+    background: #004385;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  section#page-register form div#btn2 input, section#page-register form div#btn2 div {
+    cursor: pointer;
+  }
+  section#page-register form div#btn2 div {
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    line-height: 6vh;
+    font-size: 3vw;
+    margin-left: 3%;
+    font-family: Montserrat;
+  }
+  section#page-register form div#btn2 div a {
+    width: 100%;
+    color: white;
+    background: #004385;
+    text-decoration: none;
+  }
+  form div#register {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    font-size: 4vw;
+  }
+  form div#register p {
+    color: white;
+    font-family: Montserrat;
+  }
+  form div#register a {
+    width: auto;
+    background: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 1vh;
+    text-decoration: none;
+    color: #6cc551;
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+  /* FIN PAGE REGISTER  */
+  /* DEBUT PAGE-SIGNAL  */
+  section#page-signal {
+    width: 100%;
+    height: 85vh;
+    margin-bottom: 1vh;
+  }
+  header#signal-deco {
+    width: 100%;
+    height: auto;
+    padding-top: 2vh;
+  }
+  header#signal-deco div {
+    width: 35vw;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    font-size: 4vw;
+    cursor: pointer;
+    padding: 5px;
+    margin: auto;
+    font-family: Montserrat;
+    background: red;
+    display: flex;
+  }
+  header#signal-deco div a {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+  }
+  section#page-signal h2 {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 7vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Fredoka One;
+    color: #004385;
+  }
+  section#page-signal form {
+    width: 95%;
+    height: 75vh;
+    margin: auto;
+    padding: 1vh;
+    opacity: 1;
+    background: #087ca7;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  section#page-signal form label {
+    width: 30%;
+    height: auto;
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    color: white;
+    font-family: Montserrat;
+  }
+  section#page-signal form input {
+    width: 60%;
+    height: 5vh;
+    padding-left: 5px;
+    margin-bottom: 1vh;
+    font-size: 2vw;
+    font-family: Montserrat;
+    border: 2px solid #004385;
+  }
+  section#page-signal form div#loca {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    margin-bottom: 1vh;
+  }
+  section#page-signal form input[type=file] {
+    width: 60%;
+    height: 5vh;
+    padding: 0;
+    font-size: 3vw;
+    border: none;
+  }
+  section#page-signal form select {
+    width: 60%;
+    height: 5vh;
+    font-size: 2vh;
+    font-family: Montserrat;
+    margin-bottom: 1vh;
+    border: none;
+  }
+  section#page-signal form textarea {
+    width: 60%;
+    height: 20vh;
+    margin-bottom: 1vh;
+    border: none;
+    font-size: 2vh;
+    padding: 5px;
+    border: 2px solid #004385;
+    font-family: Montserrat;
+  }
+  section#page-signal form div#btn {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+  }
+  section#page-signal form div#btn input {
+    width: 28%;
+    height: 6vh;
+    padding: 1vh;
+    font-size: 3vw;
+    font-family: Montserrat;
+    background: #004385;
+    border: none;
+    color: white;
+    margin-left: 20%;
+    cursor: pointer;
+  }
+  section#page-signal form div#btn div {
+    width: 28%;
+    height: 6vh;
+    padding: 1vh;
+    line-height: 4vh;
+    font-size: 3vw;
+    font-family: Montserrat;
+    background: #004385;
+    margin-left: 5%;
+    color: white;
+    cursor: pointer;
+  }
+  section#page-signal form div#btn div a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  section#page-signal div#btn input:hover, section#page-signal form div#btn div:hover {
+    cursor: pointer;
+  }
+  /* FIN PAGE-SIGNAL */
+  /* PAGE-DASHBOARD */
+  header#dash {
+    width: 100%;
+    height: auto;
+    padding-top: 2vh;
+  }
+  header#dash div {
+    width: 35vw;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    font-size: 4vw;
+    cursor: pointer;
+    padding: 5px;
+    margin: auto;
+    font-family: Montserrat;
+    background: red;
+    display: flex;
+  }
+  header#dash div a {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+  }
+  section#page-dashboard {
+    width: 100%;
+    height: auto;
+  }
+  body h2#dash-title {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    font-family: Fredoka One;
+    color: #004385;
+    font-size: 7vw;
+  }
+  section#page-dashboard div#new-one {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+  }
+  section#page-dashboard div#new-one p#new {
+    width: auto;
+    height: 5vh;
+    font-size: 4vw;
+    line-height: 1vh;
+    text-align: center;
+    font-family: Montserrat;
+    border: none;
+    background: #6cc551;
+    color: white;
+    padding: 10px;
+  }
+  section#page-dashboard div#new-one table {
+    width: 100%;
+    height: auto;
+    font-size: 0.9vh;
+    font-family: montserrat;
+    text-align: center;
+  }
+  section#page-dashboard div#new-one button#ok {
+    background: orange;
+    border: none;
+    padding: 3px;
+    border-radius: 20%;
+  }
+  section#page-dashboard div#new-one button#nope {
+    background: red;
+    border: none;
+    padding: 3px;
+    border-radius: 20%;
+  }
+  section#page-dashboard div#new-one table thead {
+    font-weight: bold;
+    background: black;
+    color: white;
+  }
+  section#page-dashboard div#new-one table td {
+    width: 10%;
+    padding: 1px;
+    border: 1px solid black;
+  }
+  section#page-dashboard div#signaled-one {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    border-left: 1px solid #004385;
+    margin-top: 5vh;
+  }
+  section#page-dashboard div#signaled-one table {
+    width: 100%;
+    height: auto;
+    font-size: 0.9vh;
+    font-family: montserrat;
+    text-align: center;
+  }
+  section#page-dashboard div#signaled-one table thead {
+    font-weight: bold;
+    background: black;
+    color: white;
+  }
+  section#page-dashboard div#signaled-one table td {
+    padding: 1px;
+    border: 1px solid black;
+  }
+  section#page-dashboard div#signaled-one button#change {
+    background: #02AC1E;
+    border: none;
+    padding: 3px;
+    border-radius: 20%;
+  }
+  section#page-dashboard div#signaled-one p#signaled {
+    text-align: center;
+    font-family: Montserrat;
+    width: auto;
+    height: 5vh;
+    font-size: 4vw;
+    line-height: 1vh;
+    border: none;
+    background: #004385;
+    color: white;
+    padding: 10px;
+  }
+  /* FIN PAGE-DASHBOARD */
+  /* PAGE-DASHBOARD/USERS */
+  header#dash-2 {
+    width: 100%;
+    height: auto;
+    padding-top: 2vh;
+  }
+  header#dash-2 Div {
+    width: 50%;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    font-size: 5vw;
+    cursor: pointer;
+    padding: 5px;
+    margin: auto;
+    font-family: Montserrat;
+    background: red;
+    color: white;
+    display: flex;
+  }
+  header#dash-2 Div a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+  }
+  body h2#dash-title-2 {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    font-family: Fredoka One;
+    color: #004385;
+    font-size:4vw;
+  }
+  div#signal-redirection {
+    width: 15vh;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    line-height: 15vh;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-bottom: 2vh;
+    background: #004385;
+  }
+  div#signal-redirection a {
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+  section#page-dashboard-users {
+    width: 100%;
+    height: auto;
+  }
+  section#page-dashboard-users div#my-signal-one {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+  }
+  section#page-dashboard-users div#my-signal-one table {
+    width: 100%;
+    height: auto;
+    font-size: 1.1vh;
+    font-family: montserrat;
+    text-align: center;
+  }
+  section#page-dashboard-users div#my-signal-one table thead {
+    width: 100%;
+    background: black;
+    color: white;
+  }
+  section#page-dashboard-users div#my-signal-one table td {
+    width: 10%;
+    padding: 1px;
+    border: 1px solid black;
+  }
+  section#page-dashboard-users div#my-signal-one p#my-signal {
+    width: auto;
+    height: auto;
+    line-height: 2vh;
+    font-family: Montserrat;
+    background: #6cc551;
+    color: white;
+    font-size: 3vw;
+    padding: 10px;
+    text-align: center;
+  }
+  section#page-dashboard-users div#signaled-two {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    margin-top: 5vh;
+  }
+  section#page-dashboard-users div#signaled-two table {
+    width: 100%;
+    height: auto;
+    font-family: montserrat;
+    text-align: center;
+  }
+  section#page-dashboard-users div#signaled-two table thead {
+    background: black;
+    color: white;
+  }
+  section#page-dashboard-users div#signaled-two table td {
+    border: 1px solid black;
+  }
+  section#page-dashboard-users div#signaled-two p#signaled-2 {
+    width: auto;
+    height: auto;
+    line-height: 2vh;
+    font-family: Montserrat;
+    background: #004385;
+    color: white;
+    font-size: 3vw;
+    padding: 10px;
+    text-align: center;
+  }
+  div#statements {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    font-family: fredoka one;
+    border: 2px solid;
+    margin-top:1vh;
+    margin-left: 69%;
+    font-size: 2vw;
+   }
+     div#statements p{
+     background: white;
+   }
+     div#statements p:nth-last-child(1){
+     color: green;
+   }
+   div#statements p:nth-last-child(2){
+   color: orange;
+     }
+   div#statements p:nth-last-child(3){
+   color: red;
+ }
+  /* FIN PAGE-DASHBOARD/USERS */
+  /* FOOTER  */
+  #footer {
+    display: none;
+  }
+  /* FIN FOOTER */
+}
